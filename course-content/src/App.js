@@ -28,7 +28,7 @@ const Part = (props) => {
   return (
     <div>
       <h2>{props.part}</h2>
-      <p>{props.exercise}</p>
+      <p>Number of exercises: {props.exercise}</p>
     </div>
   );
 };
